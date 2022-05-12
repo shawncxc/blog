@@ -44,6 +44,7 @@
   flex-direction: row;
   justify-content: center;
   margin-top: 0.3rem;
+  flex-flow: wrap;
 }
 
 .basicInfoSecondary .basicInfoSecondaryItem {
