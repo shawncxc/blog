@@ -1,0 +1,30 @@
+.experience {
+  display: flex;
+  flex-direction: column;
+}
+
+.experienceItem {
+  display: flex;
+  flex-direction: row;
+  margin-top: 1rem;
+}
+
+.experienceImg {
+  height: 3.5rem;
+  width: 3.5rem;
+  margin: 0 1rem 0 0;
+}
+
+.experienceContent {
+  display: flex;
+  flex-direction: column;
+}
+
+.experienceText {
+  margin-top: 0.3rem;
+  font-size: 0.8rem;
+}
+
+.experienceText ul {
+  margin: 0px;
+}

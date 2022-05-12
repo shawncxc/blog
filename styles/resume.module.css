@@ -1,0 +1,18 @@
+.resumeContainer {
+  display: flex;
+  flex-direction: column;
+}
+
+.resumeAction {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  align-items: center;
+  justify-content: right;
+  font-size: 0.8rem;
+  padding: 0.5rem;
+}
+
+.resumeActionItem {
+  margin-left: 1rem;
+}

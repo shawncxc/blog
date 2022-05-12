@@ -12,6 +12,16 @@ export default function Home({ allPostsData }) {
         <title>{siteTitle}</title>
       </Head>
       <section className={`${utilStyles.headingMd} ${utilStyles.padding1px}`}>
+        <h2 className={utilStyles.headingLg}>Resume</h2>
+        <ul className={utilStyles.list}>
+          <li className={utilStyles.listItem}>
+            <Link href='/resume'>
+              <a>Resume</a>
+            </Link>
+          </li>
+        </ul>
+      </section>
+      <section className={`${utilStyles.headingMd} ${utilStyles.padding1px}`}>
         <h2 className={utilStyles.headingLg}>Blog</h2>
         <ul className={utilStyles.list}>
           {
