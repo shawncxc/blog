@@ -1,3 +1,4 @@
+import Head from 'next/head';
 import Link from 'next/link';
 import React, { createContext, useState } from 'react';
 import BasicInfo from '../components/resume/basicInfo';
@@ -5,8 +6,8 @@ import Skill from '../components/resume/skill';
 import Experience from '../components/resume/experience';
 import Education from '../components/resume/education';
 import styles from '../styles/resume.module.css';
-import layoutStyles from '../components/layout.module.css'
 
+const siteTitle = 'Xuchang Chen\' Resume';
 const enLang = 'en';
 const cnLang = 'cn';
 export const LangContext = createContext(enLang);
